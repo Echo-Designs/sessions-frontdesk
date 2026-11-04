@@ -1,0 +1,10 @@
+# GitHub Pages (legacy build from main at the root).
+# Only the site files are published. Everything below stays in the repository but is not served.
+exclude:
+  - README.md
+  - CLAUDE.md
+  - AGENTS.md
+  - docs/
+  - templates/
+  - .gitignore
+  - _config.yml
