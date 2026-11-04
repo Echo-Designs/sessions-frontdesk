@@ -1,0 +1,13 @@
+# GitHub Pages (legacy build from main at the root).
+# Only the page is published: index.html, assets/ and robots.txt.
+# Everything below stays in the repository but is not served.
+# Added before this repository's documentation lands, so README.md,
+# CLAUDE.md and docs/ never appear on the public site.
+exclude:
+  - README.md
+  - CLAUDE.md
+  - AGENTS.md
+  - docs/
+  - templates/
+  - .gitignore
+  - _config.yml
